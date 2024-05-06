@@ -107,7 +107,7 @@ static const AVOption configOptions[] = {
     CONFIG_CONST(auto, RS_CONFIG_AUTO, audioInput),
     CONFIG_CONST(pulse, RS_CONFIG_DEVICE_PULSE, audioInput),
     CONFIG_STRING(audioDevice, "auto"),
-CONFIG_INT(audioInput1, RS_CONFIG_AUTO, RS_CONFIG_DEVICE_NONE, RS_CONFIG_DEVICE_PULSE,
+    CONFIG_INT(audioInput1, RS_CONFIG_AUTO, RS_CONFIG_DEVICE_NONE, RS_CONFIG_DEVICE_PULSE,
                audioInput1),
     CONFIG_CONST(none, RS_CONFIG_DEVICE_NONE, audioInput1),
     CONFIG_CONST(auto, RS_CONFIG_AUTO, audioInput1),
